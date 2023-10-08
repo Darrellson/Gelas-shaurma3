@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image:linear-gradient(gray,white);
+}
+.header {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bar {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    padding: 50px;
+    padding-top: 30px;
+    width: 100%;
+    height: 10vh;
+    background-image: url(mainlogo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    background-color: rgb(238, 233, 233);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    font-size: 19px;
+    gap: 20px;
+}
+.bar .main a {
+    color: black;
+    text-decoration: none;
+}
+.bar .main1 a {
+    color: black;
+    text-decoration: none;
+}
+.bar .main2 a {
+    color: black;
+    text-decoration: none;
+}
+.bar .cart img {
+    position: absolute;
+    right: 25%;
+    top: 3%;
+    color: transparent;
+    background-color: rgb(238, 233, 233);
+}
+.bar .map img {
+    position: absolute;
+    right: 22%;
+    top: 3%;
+    color: transparent;
+    background-color: rgb(238, 233, 233);
+}
+.bar .mainlogo {
+    position: absolute;
+    right: 88%;
+    top: 0%;
+    border-radius: 100px;
+    width: 10%;
+}
+.mobile {
+    visibility: hidden;
+}
+.bar1 {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+.article {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+.card1 {
+    background: rgb(255, 255, 255);
+    width: 500px;
+    height: 620px;
+    margin: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.card2 {
+    background: rgb(255, 255, 255);
+    width: 500px;
+    height: 620px;
+    margin: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.card3 {
+    background: rgb(253, 253, 253);
+    width: 500px;
+    height: 620px;
+    margin: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.card1 h2 {
+    padding: 30px;
+    font-size: 35px;
+}
+.card1 p {
+    font-size: 20px;
+    margin: 10px;
+}
+.card1 h3 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 10px;
+}
+.card2 p {
+    font-size: 20px;
+    margin: 10px;
+}
+.card2 h3 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 10px;
+}
+.card3 p {
+    font-size: 20px;
+    margin: 10px;
+}
+.card3 h3 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 10px;
+}
+.card2 h2 {
+    padding: 30px;
+    font-size: 35px;
+}
+.card3 h2 {
+    padding: 30px;
+    font-size: 35px;
+}
+.img {
+    background: url(didi.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 270px;
+}
+.img2 {
+    background: url(sashualo.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 270px;
+}
+.img3 {
+    background-image: url(patara.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 270px;
+}
+@media screen and (max-width: 750px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-image:linear-gradient(gray,white);
+    }
+    .header {
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .bar {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: space-evenly;
+        padding: 50px;
+        padding-top: 30px;
+        width: 100%;
+        height: 10vh;
+        background-color: rgb(238, 233, 233);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+        font-size: 19px;
+    }
+    .bar .main a {
+        color: black;
+        text-decoration: none;
+        visibility: hidden;
+    }
+    .bar .main1 a {
+        color: black;
+        text-decoration: none;
+        visibility: hidden;
+    }
+    .bar .main2 a {
+        color: black;
+        text-decoration: none;
+        visibility: hidden;
+    }
+    .bar .cart img {
+        position: absolute;
+        right: 25%;
+        top: 3%;
+        color: transparent;
+        background-color: rgb(238, 233, 233);
+        visibility: hidden;
+    }
+    .bar .map img {
+        position: absolute;
+        right: 22%;
+        top: 3%;
+        color: transparent;
+        background-color: rgb(238, 233, 233);
+        visibility: hidden;
+    }
+    .bar .mainlogo {
+        position: absolute;
+        right: 88%;
+        top: 0%;
+        border-radius: 100px;
+        width: 20%;
+    }
+    .hamburger {
+        position: relative;
+        display: block;
+        width: 35px;
+        cursor: pointer;
+        appearance: none;
+        background: none;
+        outline: none;
+        border: none;
+    }
+    .hamburger .bar3 .hamburger::after, .hamburger::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0px;
+        transition: 0.4s;
+    }
+    .hamburger.is-active:before {
+        transform: rotate(-45deg) translate(-8px, 6px);
+    }
+    .hamburger.is-active:after {
+        transform: rotate(45deg) translate(-9px, -8px);
+    }
+    .hamburger.is-active .bar3 {
+        opacity: 0;
+    }
+    .mobile {
+        visibility: visible;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        min-height: 100vh;
+        display: block;
+        z-index: 98;
+        background-image:linear-gradient(gray,white);
+        padding-top: 120px;
+        transition: 0.4s;
+    }
+    .mobile.is-active {
+        left: 0;
+    }
+    .mobile .main a {
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+                max-width: 200px;
+                text-align: center;
+                margin-bottom: 16px;
+                padding: 12px 16px;
+                background-color: rgba(128, 128, 128, 70);
+                color: white;
+                text-decoration: none;
+    }
+    .mobile .main a:hover {
+        background-color:rgba(190, 189, 189, 0.384);
+    }
+    .article {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 178px;
+    }
+    .card1 {
+        background: rgb(255, 255, 255);
+        width: 500px;
+        height: 600px;
+        margin: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    }
+    .card2 {
+        background: rgb(255, 255, 255);
+        width: 500px;
+        height: 600px;
+        margin: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    }
+    .card3 {
+        background: rgb(253, 253, 253);
+        width: 500px;
+        height: 600px;
+        margin: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    }
+    .card1 h2 {
+        padding: 30px;
+        font-size: 35px;
+    }
+    .card1 ol {
+        margin: 50px;
+        font-size: 25px;
+    }
+    .card2 ol {
+        margin: 50px;
+        font-size: 25px;
+    }
+    .card3 ol {
+        margin: 50px;
+        font-size: 25px;
+    }
+    .card2 h2 {
+        padding: 30px;
+        font-size: 35px;
+    }
+    .card3 h2 {
+        padding: 30px;
+        font-size: 35px;
+    }
+    .img {
+        background: url(didi.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 270px;
+    }
+    .img2 {
+        background: url(sashualo.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 270px;
+    }
+    .img3 {
+        background-image: url(patara.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 270px;
+    }
+}
